@@ -1,0 +1,19 @@
+# python venv files
+.venv
+venv/
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# macOS files and IDEs
+.DS_Store
+.idea/
+.vscode/
+
+# Environment & Secrets (NEVER COMMIT THESE)
+.env
+aweber_token.json
+
+# Output files (you probably don't want to share these either)
+aweber_export_llm.md
